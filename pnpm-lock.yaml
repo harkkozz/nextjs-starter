@@ -101,7 +101,7 @@ devDependencies:
     specifier: ^13.2.3
     version: 13.2.3
   prettier:
-    specifier: latest
+    specifier: ^3.0.0
     version: 3.0.0
 
 packages:
