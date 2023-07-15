@@ -16,6 +16,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@svgr/webpack": "^8.0.1",
     "@tanstack/query-core": "^4.29.23",
     "@tanstack/react-query": "^4.29.23",
     "@tanstack/react-query-devtools": "^4.29.23",
@@ -54,6 +55,11 @@
     "node": ">=14.0.0",
     "pnpm": ">=7",
     "npm": "please-use-pnpm"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "packageManager": "pnpm@8.6.6"
 }
