@@ -2,21 +2,56 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+### Install dependencies
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
+```
+
+### Run the development server:
+
+```bash
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+As you run this project it automatically generates types from i18n which watches for changes inside `i18n/en` folder.
+It is used [https://github.com/ivanhofer/typesafe-i18n](typesafe-i18n)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can manually run type generation by running:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+pnpm run codegen:i18n
+```
+
+Open [http://dev.app.io:3000](http://dev.app.io:3000) with your browser to see the result.
+
+You can start editing the page by modifying `pages/*`. The page auto-updates as you edit the file.
+
+## Format with prettier
+
+```bash
+pnpm run format
+```
+
+## Check for errors
+
+Runs tsc cli for project and check if there are some errors based on tsconfig.json file which is already configured.
+
+```bash
+pnpm run lint:tsc
+```
+
+## Unit test
+
+Jest Testing Framework
+
+```bash
+pnpm run test
+```
+
+```bash
+pnpm run test:cov
+```
 
 ## Learn More
 

@@ -12,7 +12,7 @@
     "lint:tsc": "tsc --project tsconfig.json --noEmit",
     "lint:eslint": "next lint --format json --output-file eslint-report.json",
     "prepare": "husky install || npx -y husky install",
-    "codegen-i18n": "typesafe-i18n",
+    "codegen:i18n": "typesafe-i18n",
     "format": "prettier --write ."
   },
   "dependencies": {
