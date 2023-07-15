@@ -57,8 +57,9 @@
     "npm": "please-use-pnpm"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx}": "eslint --cache --fix",
-    "src/**/*.{js,jsx,ts,tsx,css,scss,md}": "prettier --write --ignore-unknown"
+    "**/*.{js,ts,tsx}": [
+      "pnpm run format"
+    ]
   },
   "packageManager": "pnpm@8.6.6"
 }
