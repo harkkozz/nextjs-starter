@@ -10,7 +10,7 @@ const TypesafeI18nProvider = ({ i18n, children }: { i18n?: I18nProp; children: R
   if (!i18n) return children as JSX.Element;
 
   const locale = i18n.locale;
-  const dictionary = i18n.dictionary;
+  const dictionary = i18n.dictionarya;
 
   loadedLocales[locale] = dictionary;
   loadFormatters(locale);
