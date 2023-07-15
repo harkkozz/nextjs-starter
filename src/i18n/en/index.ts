@@ -4,6 +4,10 @@ const en: BaseTranslation = {
   common: {
     home: 'Home',
     about: 'About',
+    profile: 'Profile',
+  },
+  homePage: {
+    hello: 'Hello from home page!',
   },
 };
 

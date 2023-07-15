@@ -12,7 +12,6 @@ const localeTranslationLoaders = {
 const localeNamespaceLoaders = {
 	en: {
 		aboutPage: () => import('./en/aboutPage'),
-		homePage: () => import('./en/homePage'),
 		profilePage: () => import('./en/profilePage')
 	}
 }

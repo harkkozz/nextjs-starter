@@ -8,14 +8,12 @@ import { loadedFormatters, loadedLocales, locales } from './i18n-util'
 import en from './en'
 
 import en_aboutPage from './en/aboutPage'
-import en_homePage from './en/homePage'
 import en_profilePage from './en/profilePage'
 
 const localeTranslations = {
 	en: {
 		...en,
 		aboutPage: en_aboutPage,
-		homePage: en_homePage,
 		profilePage: en_profilePage
 	},
 }
