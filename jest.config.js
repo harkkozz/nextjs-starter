@@ -18,7 +18,7 @@ module.exports = {
     '\\.svg': '<rootDir>/__mocks__/svg.tsx',
     '\\.(css|less)$': '<rootDir>/__mocks__/styleMock.js',
   },
-  moduleDirectories: ['node_modules', '<rootDir>'],
+  moduleDirectories: ['node_modules', '<rootDir>/src'],
   reporters: ['default'],
   coveragePathIgnorePatterns: ['i18n/*'],
 };
