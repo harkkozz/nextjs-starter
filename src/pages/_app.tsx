@@ -1,4 +1,4 @@
-import { type ComponentProps, useState } from 'react';
+import { type ComponentProps, useMemo } from 'react';
 
 import { type DehydratedState, QueryClient } from '@tanstack/query-core';
 import { Hydrate, QueryClientProvider } from '@tanstack/react-query';
@@ -16,7 +16,7 @@ export type PageProps = {
 };
 
 export default function App({ Component, pageProps }: AppProps<PageProps>) {
-  const [queryClient] = useState(
+  const queryClient = useMemo(
     () =>
       new QueryClient({
         defaultOptions: {
@@ -26,6 +26,7 @@ export default function App({ Component, pageProps }: AppProps<PageProps>) {
           },
         },
       }),
+    [],
   );
 
   return (

@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'standalone',
+  basePath: '/home',
   i18n: {
     locales: ['en'],
     defaultLocale: 'en',
