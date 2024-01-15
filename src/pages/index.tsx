@@ -6,7 +6,7 @@ import getI18nProps from 'utils/helpers/server/getI18nProps';
 
 export const getServerSideProps = getI18nProps;
 
-const Home = () => {
+const HomePage = () => {
   const { LL } = useContext(I18nContext);
 
   return (
@@ -21,4 +21,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
