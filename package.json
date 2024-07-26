@@ -31,7 +31,7 @@
     "react-dom": "18.2.0",
     "turbo": "latest",
     "typesafe-i18n": "^5.26.2",
-    "typescript": "5.3.3"
+    "typescript": "5.5.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.6.1",
