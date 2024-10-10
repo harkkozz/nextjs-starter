@@ -66,6 +66,5 @@
     "src/**/*.{j,t}s?(x)": [
       "eslint --cache --fix"
     ]
-  },
-  "packageManager": "pnpm@9.12.1"
+  }
 }
