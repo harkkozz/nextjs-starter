@@ -61,8 +61,8 @@ importers:
         specifier: ^18.6.1
         version: 18.6.1
       '@happy-dom/jest-environment':
-        specifier: ^13.10.1
-        version: 13.10.1
+        specifier: ^15.0.0
+        version: 15.7.4
       '@swc/core':
         specifier: ^1.7.2
         version: 1.7.35(@swc/helpers@0.5.5)
@@ -876,9 +876,9 @@ packages:
     resolution: {integrity: sha512-gMsVel9D7f2HLkBma9VbtzZRehRogVRfbr++f06nL2vnCGCNlzOD+/MUov/F4p8myyAHspEhVobgjpX64q5m6A==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
-  '@happy-dom/jest-environment@13.10.1':
-    resolution: {integrity: sha512-g6DY+qLAbeyDQIqPncnBcZVwZqZbYhR33t42vrWyjWHv2lAYudp6TLYvwDWSNG9f8GQLmEZ9VMxVBnVtEsy2SQ==}
-    engines: {node: '>=16.0.0'}
+  '@happy-dom/jest-environment@15.7.4':
+    resolution: {integrity: sha512-lDcTg7bquMaewoxb03BC/6c5oUaEE1388CZnM+VJJRP4OZYTGU8qOfoMQEBEJEmcv7DzTEgNxyOfXWMS0rCN9Q==}
+    engines: {node: '>=18.0.0'}
 
   '@humanwhocodes/config-array@0.11.14':
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
@@ -2331,9 +2331,9 @@ packages:
   graphemer@1.4.0:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
 
-  happy-dom@13.10.1:
-    resolution: {integrity: sha512-9GZLEFvQL5EgfJX2zcBgu1nsPUn98JF/EiJnSfQbdxI6YEQGqpd09lXXxOmYonRBIEFz9JlGCOiPflDzgS1p8w==}
-    engines: {node: '>=16.0.0'}
+  happy-dom@15.7.4:
+    resolution: {integrity: sha512-r1vadDYGMtsHAAsqhDuk4IpPvr6N8MGKy5ntBo7tSdim+pWDxus2PNqOcOt8LuDZ4t3KJHE+gCuzupcx/GKnyQ==}
+    engines: {node: '>=18.0.0'}
 
   hard-rejection@2.1.0:
     resolution: {integrity: sha512-VIZB+ibDhx7ObhAe7OVtoEbuP4h/MuOTHJ+J8h/eBXotJYl0fBgR72xDFCKgIh22OJZIOVNxBMWuhAr10r8HdA==}
@@ -4911,12 +4911,12 @@ snapshots:
 
   '@eslint/js@8.56.0': {}
 
-  '@happy-dom/jest-environment@13.10.1':
+  '@happy-dom/jest-environment@15.7.4':
     dependencies:
       '@jest/environment': 29.7.0
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
-      happy-dom: 13.10.1
+      happy-dom: 15.7.4
       jest-mock: 29.7.0
       jest-util: 29.7.0
 
@@ -6739,7 +6739,7 @@ snapshots:
 
   graphemer@1.4.0: {}
 
-  happy-dom@13.10.1:
+  happy-dom@15.7.4:
     dependencies:
       entities: 4.5.0
       webidl-conversions: 7.0.0
