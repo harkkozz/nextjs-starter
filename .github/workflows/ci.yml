@@ -70,7 +70,7 @@ jobs:
         with:
           fetch-depth: 2
 
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         name: Restore tsconfig.tsbuildinfo cache
         with:
           path: ${{ github.workspace }}/**/tsconfig.tsbuildinfo
