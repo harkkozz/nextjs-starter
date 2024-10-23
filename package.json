@@ -13,7 +13,7 @@
     "lint:tsc": "tsc --project tsconfig.json --noEmit",
     "lint:ts-coverage": "type-coverage",
     "lint:eslint": "next lint --format json --output-file eslint-report.json",
-    "prepare": "husky install || npx -y husky install",
+    "prepare": "husky",
     "codegen:i18n": "typesafe-i18n",
     "format": "prettier --write ."
   },
