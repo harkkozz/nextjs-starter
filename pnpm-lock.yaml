@@ -61,8 +61,8 @@ importers:
         specifier: ^19.0.0
         version: 19.8.0
       '@happy-dom/jest-environment':
-        specifier: ^15.0.0
-        version: 15.11.7
+        specifier: ^17.0.0
+        version: 17.4.4
       '@swc/core':
         specifier: ^1.7.2
         version: 1.11.9(@swc/helpers@0.5.15)
@@ -910,8 +910,8 @@ packages:
     resolution: {integrity: sha512-JubJ5B2pJ4k4yGxaNLdbjrnk9d/iDz6/q8wOilpIowd6PJPgaxCuHBnBszq7Ce2TyMrywm5r4PnKm6V3iiZF+g==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@happy-dom/jest-environment@15.11.7':
-    resolution: {integrity: sha512-za6+Hrlcei6HYW/JmY6+kmYsOBslanyV/Gd6W4OWxxpvTEiy57vjVp4SvARN60mHFcEVY+EA24WbDJfIgdnGog==}
+  '@happy-dom/jest-environment@17.4.4':
+    resolution: {integrity: sha512-5imA+SpP7ZcIwE1u2swWZq6UJhyZIWNtlE/gnqhVz+y91G6hgF+t9hVSsWH29Tfib+wg/zC9ryJPDDyAuqXfEg==}
     engines: {node: '>=18.0.0'}
 
   '@humanfs/core@0.19.1':
@@ -2484,8 +2484,8 @@ packages:
   graphemer@1.4.0:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
 
-  happy-dom@15.11.7:
-    resolution: {integrity: sha512-KyrFvnl+J9US63TEzwoiJOQzZBJY7KgBushJA8X61DMbNsH+2ONkDuLDnCnwUiPTF42tLoEmrPyoqbenVA5zrg==}
+  happy-dom@17.4.4:
+    resolution: {integrity: sha512-/Pb0ctk3HTZ5xEL3BZ0hK1AqDSAUuRQitOmROPHhfUYEWpmTImwfD8vFDGADmMAX0JYgbcgxWoLFKtsWhcpuVA==}
     engines: {node: '>=18.0.0'}
 
   has-bigints@1.0.2:
@@ -4991,12 +4991,12 @@ snapshots:
       '@eslint/core': 0.12.0
       levn: 0.4.1
 
-  '@happy-dom/jest-environment@15.11.7':
+  '@happy-dom/jest-environment@17.4.4':
     dependencies:
       '@jest/environment': 29.7.0
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
-      happy-dom: 15.11.7
+      happy-dom: 17.4.4
       jest-mock: 29.7.0
       jest-util: 29.7.0
 
@@ -6880,9 +6880,8 @@ snapshots:
 
   graphemer@1.4.0: {}
 
-  happy-dom@15.11.7:
+  happy-dom@17.4.4:
     dependencies:
-      entities: 4.5.0
       webidl-conversions: 7.0.0
       whatwg-mimetype: 3.0.0
 
