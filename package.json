@@ -62,9 +62,6 @@
     "npm": "please-use-pnpm"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,json,css,md}": "prettier --write",
-    "src/**/*.{j,t}s?(x)": [
-      "eslint --cache --fix"
-    ]
+    "src/**/*.{js,jsx,ts,tsx,json,css,md}": "prettier --write"
   }
 }
