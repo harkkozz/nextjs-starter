@@ -82,8 +82,8 @@ importers:
         specifier: ^5.0.0
         version: 5.2.2(prettier@3.6.2)
       '@types/jest':
-        specifier: ^29.5.12
-        version: 29.5.14
+        specifier: ^30.0.0
+        version: 30.0.0
       '@types/object-hash':
         specifier: ^3.0.6
         version: 3.0.6
@@ -1670,8 +1670,8 @@ packages:
   '@types/jest@29.4.0':
     resolution: {integrity: sha512-VaywcGQ9tPorCX/Jkkni7RWGFfI11whqzs8dvxF41P17Z+z872thvEvlIbznjPJ02kl1HMX3LmLOonsj2n7HeQ==}
 
-  '@types/jest@29.5.14':
-    resolution: {integrity: sha512-ZN+4sdnLUbo8EVvVc2ao0GFW6oVrQRPn4K2lglySj7APvSrgzxHiNNK99us4WDMi57xxA2yggblIAMNhXOotLQ==}
+  '@types/jest@30.0.0':
+    resolution: {integrity: sha512-XTYugzhuwqWjws0CVz8QpM36+T+Dz5mTEBKhNs/esGLnCIlGdRy+Dq78NRjd7ls7r8BC8ZRMOrKlkO1hU0JOwA==}
 
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
@@ -6207,10 +6207,10 @@ snapshots:
       expect: 29.7.0
       pretty-format: 29.7.0
 
-  '@types/jest@29.5.14':
+  '@types/jest@30.0.0':
     dependencies:
-      expect: 29.7.0
-      pretty-format: 29.7.0
+      expect: 30.2.0
+      pretty-format: 30.2.0
 
   '@types/json-schema@7.0.15': {}
 
