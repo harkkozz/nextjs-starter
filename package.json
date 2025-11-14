@@ -34,9 +34,9 @@
     "typescript": "5.9.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.0.0",
-    "@commitlint/config-conventional": "^19.0.0",
-    "@commitlint/types": "^19.0.0",
+    "@commitlint/cli": "^20.0.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "@commitlint/types": "^20.0.0",
     "@happy-dom/jest-environment": "^18.0.0",
     "@swc/core": "^1.7.2",
     "@swc/jest": "^0.2.36",
