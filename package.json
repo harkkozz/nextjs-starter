@@ -37,7 +37,7 @@
     "@commitlint/cli": "^20.0.0",
     "@commitlint/config-conventional": "^20.0.0",
     "@commitlint/types": "^20.0.0",
-    "@happy-dom/jest-environment": "^18.0.0",
+    "@happy-dom/jest-environment": "^20.0.0",
     "@swc/core": "^1.7.2",
     "@swc/jest": "^0.2.36",
     "@testing-library/dom": "^10.0.0",
