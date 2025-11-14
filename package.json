@@ -44,7 +44,7 @@
     "@testing-library/jest-dom": "^6.4.8",
     "@testing-library/react": "^16.0.0",
     "@trivago/prettier-plugin-sort-imports": "^5.0.0",
-    "@types/jest": "^29.5.12",
+    "@types/jest": "^30.0.0",
     "@types/object-hash": "^3.0.6",
     "eslint": "9.39.1",
     "eslint-config-next": "15.5.6",
