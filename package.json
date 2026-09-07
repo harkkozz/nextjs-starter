@@ -46,7 +46,7 @@
     "@trivago/prettier-plugin-sort-imports": "^5.0.0",
     "@types/jest": "^30.0.0",
     "@types/object-hash": "^3.0.6",
-    "eslint": "9.39.1",
+    "eslint": "10.10.0",
     "eslint-config-next": "15.5.6",
     "eslint-plugin-jest": "^29.0.0",
     "husky": "^9.0.0",
